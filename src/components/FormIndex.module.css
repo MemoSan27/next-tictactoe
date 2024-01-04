@@ -1,0 +1,42 @@
+.home__label{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.home__input{
+    max-width: 50rem;
+    width: 100%;
+    height: 5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background: var(--greyBG);
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.home__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__button{
+    display: block;
+    align-self: center;
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    margin-top: var(--separation);
+    outline: none;
+    border: 3px solid grey;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    margin-bottom: 5rem;
+    transition: all 300ms;
+}
+.home__button:hover{
+    background-color: grey;
+    color: yellow;
+}

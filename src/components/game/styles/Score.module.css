@@ -1,0 +1,24 @@
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: var(--separation);
+}
+@media ( min-width: 600px ) { 
+    .score{
+        font-size: 1.6rem;
+    }
+}
+.score__name,
+.score__number{
+    font-size: 3rem;
+}
+@media ( min-width: 600px ) { 
+    .score__name,
+    .score__number{
+    font-size: 5rem;
+    }
+}

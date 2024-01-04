@@ -1,0 +1,54 @@
+.board{
+    width: fit-content;
+    margin: 4rem auto;
+    text-align: center;
+}
+.board__game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.board__square {
+    width: 12rem;
+    height: 12rem;
+    border: 2px solid #eee;
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    font-size: 6rem;
+}
+.board__turn{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+}
+.board__winner{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: red;
+    font-weight: 900;
+    max-width: 275px;
+    transition: all 300ms ease-in;
+}
+.board__ngButton{
+    align-self: center;
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    margin-top: var(--separation);
+    outline: none;
+    border: 3px solid grey;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    margin-bottom: 5rem;
+    transition: all 300ms ease-in;
+}
+.board__ngButton:hover{
+    background-color: grey;
+    color: yellow;
+}
